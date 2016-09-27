@@ -1,0 +1,19 @@
+include mixins
+doctype html
+html(lang="en")
+    head
+        +boilerplate
+        link(rel="stylesheet",type="text/css",href="/css/index.css")
+        script(src='/js/index.js')
+    body
+        +jumbotron("Nightclub","Find Great clubs in your area")
+        div.row(id="form-handling")
+            div.col-md-3
+            div.col-md-6.col-xs-12(style="text-align:center")
+                div(role="form")
+                    div(class="form-group")
+                        label(for="City") Search city
+                        input(type="search",class="form-control",id="search")
+                        button(class="btn btn-default",id="city",style="margin-top:10px;") Submit
+            div.col-md-3
+        div.container-fluid(id="bars")

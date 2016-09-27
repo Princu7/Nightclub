@@ -1,0 +1,28 @@
+.jumbotron{
+    text-align:center;
+    background-color:black;
+    color:white;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+body
+{
+    background-color:#ff4c4c;
+}
+.mainrow{
+    margin-top:20px;
+    background-color:#f54;
+}
+.picture{
+    max-height:250px;
+}
+.text
+{
+    max-height:250px;
+    overflow:hidden;
+}
+.image
+{
+    height:250px;
+    width:250px;
+}
